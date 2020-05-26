@@ -43,23 +43,24 @@ const JobBoard =({
                     rounded-full"
                     >Featured</span>}
                 </h3>
-                <h2 className="text-xl">{position}</h2>
+                <h2 className="text-xl my-2">{position}</h2>
                 <p className="text-gray-700">
                     {postedAt} . {contract} * {location}
                 </p>
             </div>
-            <div className="flex items-center m-4 pt-4 border-t border-gray-500 border-solid">
+            <div className="flex flex-wrap items-center
+                     mt-4 mx-4 pt-4 border-t
+                     border-gray-500
+                     border-solid">
                 {
                     tags ? tags.map((tag) =>
                     <span className="text-teal-500
-                    bg-teal-100 font-bold m-2
-                    p-2 rounded">
+                    bg-teal-100 font-bold mr-4
+                    mb-4 p-2 rounded">
                          {tag}
                     </span>)
                : ''}
             </div>
-
-
         </div>
     )
 }
