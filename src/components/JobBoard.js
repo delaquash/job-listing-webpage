@@ -26,10 +26,10 @@ const JobBoard =({
     }
     return (
         <div className={`flex flex-col bg-white shadow-md my-16 mx-10 p-6 rounded
-            ${featured && 'border-l-8 border-solid border-teal-500'}
+            ${featured && 'border-l-8 border-solid border-teal-500'} sm:flex-row
         `}>
             <div>
-                <img className='-mt-16 mb46 w-20 h-20' src={logo} alt={company} />
+                <img className='-mt-16 mb46 w-20 h-20 sm:mt-0' src={logo} alt={company} />
             </div>
             <div className="flex flex-col justify-between ml-4">
                 <h3 className="font-bold text-teal-500">
