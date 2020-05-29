@@ -17,8 +17,7 @@
         "SQL",
          "SOAP",
          "AngularJS",
-         "AWS Lambda",
-         "Amazon Web Services (AWS)"
+         "AWS Lambda"
         ],
     "tools": []
   },
@@ -51,9 +50,8 @@
     "location": "USA Only",
     "languages": ["CSS",
        "Analytical Skills",
-         "JavaScript",
-         "Software Development & Deployment",
-         "JavaScript"],
+         "JavaScript"
+        ],
     "tools": ["React", "Sass"]
   },
   {
@@ -70,9 +68,7 @@
     "location": "USA Only",
     "languages": ["CSS",
        "Analytical Skills",
-         "Web Applications",
          "Software Development",
-         "Software Deployment",
          "JavaScript"],
     "tools": []
   },
