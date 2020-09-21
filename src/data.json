@@ -15,9 +15,7 @@
       "JavaScript",
        "OOP",
         "SQL",
-         "SOAP",
          "AngularJS",
-         "AWS Lambda"
         ],
     "tools": []
   },
@@ -100,9 +98,7 @@
     "contract": "Full Time",
     "location": "UK Only",
     "languages": ["Ruby", "CSS",
-       "Analytical Skills",
          "Software Development",
-         "Software Deployment",
          "JavaScript"],
     "tools": ["RoR"]
   },
